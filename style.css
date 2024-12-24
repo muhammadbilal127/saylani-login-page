@@ -19,6 +19,8 @@ body{
     margin: 300px 0px 0px 300px;
 }
 
+   
+
 .logo:hover{
     border: 12px solid #57A5D8;
     border-radius: 5px;
@@ -268,7 +270,30 @@ border-radius: 15px;
   border-top: 1px aolid gray;  
 }
 
-.main-image:hover{
+
     
                
+
+
+@media screen and (max-width: 700px){
+
+    .saylani-login{
+        background-color: #002062;
+       min-width: 1000px;
+        border-radius: 30px;
+        display: flex;
+        margin-right: 400px;
+    }
+    
+.container{
+    display: flex;
+    max-width: 10%;
 }
+.main-image{
+    display: none;
+}
+
+
+}
+    
+
