@@ -7,15 +7,13 @@ body {
     text-align: center;
     border: 1px solid transparent;
     border-radius: 18px;
-    width: 100%;
 
 }
 
 .saylani-login {
     background-color: #002062;
-
-       height: 100vh;
-       width: 40%;
+    width: 400px;
+    height: 780px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -251,18 +249,17 @@ span {
     margin-right: 10px;
 }
 
-.image {
-   width: 60%;
-   position: relative;
-   right: 30px;
-   height: 100vh;
-   top: 10;
+.image{
+    position: relative;
+     right: 57px;
+     top: 3px;
+     height: 0px;
 }
 
 
 @media screen and (max-width: 700px) {
     .saylanilogin {
-        min-width: 600px;
+    min-width: 600px;
         height: 700px;
         border: none;
         display: flex;
