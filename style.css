@@ -1,4 +1,4 @@
-body{
+body {
     background-color: lightgray;
 }
 
@@ -10,6 +10,7 @@ body{
     border-radius: 18px;
 
 }
+
 .saylani-login {
     background-color: #002062;
     width: 400px;
@@ -39,13 +40,13 @@ h2 {
     color: white;
     font-weight: 500;
 }
- 
 
-input{
+
+input {
     border: none;
     outline: none;
 }
- 
+
 .email {
     width: 250px;
     height: 40px;
@@ -81,7 +82,7 @@ input{
 
 .placeholder {
     background-color: #0F2D6B;
-    border:none;
+    border: none;
     height: 30px;
     width: 290px;
     color: white;
@@ -101,21 +102,21 @@ input{
 
 
 
-.ice{
+.ice {
     margin-right: 10px;
 }
 
- 
 
 
 
-.forget-passsword{
+
+.forget-passsword {
     position: relative;
     right: 500px;
 }
 
 
-a{
+a {
     margin-top: 5px;
     margin-left: 130px;
     color: white;
@@ -124,7 +125,7 @@ a{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.content{
+.content {
     margin-right: 150px;
 }
 
@@ -147,41 +148,41 @@ a{
 
 
 
-.sections{
-display: flex;
-align-items: center;
+.sections {
+    display: flex;
+    align-items: center;
     margin-left: 150px;
-    
+
 
 }
 
-.borders{
-   border: 1px solid #474A51;
+.borders {
+    border: 1px solid #474A51;
     width: 110px;
     height: 0px;
-margin-right: 20px;
-    
+    margin-right: 20px;
+
 }
 
 
-.borders-1{
+.borders-1 {
     border: 1px solid #474A51;
-     width: 100px;
-     height: 0px;
-     margin-left: 20px;
-     
- }
+    width: 100px;
+    height: 0px;
+    margin-left: 20px;
 
-.or{
+}
+
+.or {
     font-size: 10px;
-    color:gray;
+    color: gray;
     font-family: sans-serif;
 }
 
 
 
 
-.google{
+.google {
     width: 250px;
     height: 39px;
     background-color: #0F2D6B;
@@ -192,11 +193,11 @@ margin-right: 20px;
     margin-bottom: 10px;
 }
 
-.google-logo{
+.google-logo {
     margin-left: 40px;
 }
 
-.facebook{
+.facebook {
     width: 250px;
     height: 39px;
     background-color: #0F2D6B;
@@ -207,11 +208,11 @@ margin-right: 20px;
     margin-bottom: 10px;
 }
 
-.facebook-logo{
+.facebook-logo {
     margin-left: 40px;
 }
 
-.apple{
+.apple {
     width: 250px;
     height: 39px;
     background-color: #0F2D6B;
@@ -221,63 +222,63 @@ margin-right: 20px;
     border-radius: 10px;
 }
 
-.apple-logo{
+.apple-logo {
     margin-left: 40px;
 }
 
-span{
+span {
     color: gray;
     margin-left: 10px;
 }
 
-.last-div{
+.last-div {
     display: flex;
     align-items: center;
     margin-left: 150px;
 }
 
-.p{
+.p {
     margin-right: 0px;
     color: darkblue;
     font-size: 15px;
 }
 
-.p-1{
+.p-1 {
     color: gray;
     font-family: sans-serif;
     font-size: 15px;
     margin-right: 10px;
 }
 
-.image{
+.image {
     position: relative;
     right: 58px;
     top: 3px;
-    
+
 }
 
 
 @media screen and (max-width: 700px) {
     .saylanilogin {
-           min-width: 600px;
-           height: 700px;
-           border: none;
-           display: flex;
-           overflow: hidden;
-           justify-content: space-between;
-           margin: 0px auto;
-       }
-   
-       .container{
-           margin: 0px;
-       }
-   
-       body {
-           max-width: 1000px;
-       }
-   
-       .image {
-           display:none;
-       }
-   
-   }
+        min-width: 600px;
+        height: 700px;
+        border: none;
+        display: flex;
+        overflow: hidden;
+        justify-content: space-between;
+        margin: 0px auto;
+    }
+
+    .container {
+        margin: 0px;
+    }
+
+    body {
+        max-width: 1000px;
+    }
+
+    .image {
+        display: none;
+    }
+
+}
